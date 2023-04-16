@@ -1,0 +1,196 @@
+body{
+    font-family: 'Delicious Handrawn', cursive;
+
+}
+
+header{
+    background-color: #000000;
+    padding: 20px 0;
+}
+.caixa{
+    position: relative;
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 200px;
+}
+nav{
+    position: absolute;
+    top: 130px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin:0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;/*para deixar a letra em maiusculo*/
+    color: rgb(255, 0, 0);
+    font-weight: bold;/*deixar o texto em negrito*/
+    font-size: 25px;/*aumenta o tamanho da fonte*/
+    text-decoration: none;/*tira o sublinhado */
+    
+}
+
+nav a:hover{/*para dar um contraste quando passar o mouse em cima da abas*/
+    color: rgb(255, 0, 0);
+    text-decoration:underline/*para colocar o sublinhado*/
+}
+.produtos{
+    width: 1300px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produtos li{
+    display:inline-block;
+    text-align: center;
+    width: 29%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    border: 2px solid black;/*pra colocar a borda tanto tamanho quanto tipo e cor */
+    border-radius: 40px ;/*para deixar os cantos das bordas redondas */
+    
+}
+
+.produtos li:hover{
+    border-color: rgb(240, 6, 6);
+
+}
+
+.produtos li:active{
+    border-color: blueviolet;
+}
+
+.produtos li:hover h2{
+    font-size: 32px;
+
+}
+.img{
+    width: 250px;
+    height: auto;
+}
+.produtos h2{
+    font-size: 27px;
+    font-weight: bolder;
+
+}
+.produto-preço{
+    font-size: 23px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.produtos-descrição{
+    font-size: 15px;
+
+}
+
+footer{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    background-color: black;
+    
+}
+
+.contatos main{
+    width: 940px;
+    margin: 20px;
+
+}
+
+form{
+    margin: 40px 0;
+
+    
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    
+
+}
+
+.input-padrao{
+
+    display: block;
+    margin: 20px 0;
+    width: 20%;
+    padding-right: 25%;
+    
+}
+
+.checkbox{
+    margin:20px 0;
+}
+
+.enviar{
+    width: 20%;
+    padding: 15px 0;
+    margin: 10px 0;
+    background: black;
+    color: red;
+    font-weight: bold;
+    transition: 1s background;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: red;
+    color:black;
+    
+    
+}
+/* css da pagina inical*/
+.banner{
+    width: 100%;/*largura da imagem*/
+
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+
+.principal p{
+    margin: 0 0 1em;
+    text-align: center;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.conteudo{
+        width: 640px;
+        margin: 0 auto;
+        
+}
+
+.lista-beneficios{
+    width: 40%;
+    vertical-align: top;
+}
+
+.banner2{
+    width: 500px;
+    margin-left: 250px;
+    
+}
+
+.itens{
+    text-align: center;
+    margin-top: 10px;
+    margin-block: 10px;
+}
+
+.mapa{
+    padding: 3em 0;
+    
+}

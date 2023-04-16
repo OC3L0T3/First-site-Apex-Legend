@@ -1,0 +1,40 @@
+
+.principal{
+    background-color: rgb(16, 0, 237);
+    padding: 30px;
+
+}
+
+.centralizado{
+    text-align:center;
+}
+
+.titulo-principal{
+    padding-left: 50px;
+
+}
+
+p{
+    text-align:center
+    
+    }
+
+#ola{
+    font-size: 20px
+}
+em strong{
+    color: #FF0000
+}
+
+.beneficios{
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}  

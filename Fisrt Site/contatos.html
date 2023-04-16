@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contatos - Apex </title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="apex vermelho.png" class="logo"></h1>
+            <nav>
+                 <ul>
+                    <li><a href="index.html">Home</a> </li>
+                    <li><a href="produtos.html">Planos</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>    
+    </header>
+    <main>
+        <form>
+            <label for="nomesobrenome">Nome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Jorge da Silva">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" class="input-padrao" required placeholder="email@dominio.com.br">
+
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" class="input-padrao" required placeholder="(xx)xxxx-xxxx">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="49" rows="10" id="mensagem" class="input-padrao" required placeholder="Deixe a sua mensagem"></textarea>
+            
+            <fieldset><!--quando for usar uma div em type utilizar o fieldset e inves de p usar legend-->
+                <legend>Como gostaria do contato ?</legend>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                    
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="Whatsapp" id="radio-whatsapp" checked><!--o checked e pra deixar uma opção marcada direta-->Whatsapp</label>
+                    
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual horario voce quer ser atendido?</legend>
+                <select>
+                    <option>Manha</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+            
+            <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+            <input type="submit" class="enviar">
+        </form>        
+    </main>
+    <footer>
+        <img src="apex vermelho.png">
+        <P>&copy; Copyright Apex Legend - 2023</P>
+        <footer>
+    
+</body>
+</html>
